@@ -27,11 +27,14 @@ import { ExtensionWebpackModule, Patch } from "@moonlight-mod/types";
 */
 export const patches: Patch[] = [
   {
-    find: '"USER_SETTINGS",',
-    replace: {
-      match: '"USER_SETTINGS","User Settings"',
-      replacement: '"USER_SETTINGS","hacked by sampleExtension lol"'
-    }
+    find: '"Messages.PROFILE_USER_BADGES,role:"',
+    replace: [
+      {
+        match: '/alt:" ","aria-hidden":!0,src:(?=(\i)\.src)/',
+        replacement: '"USER_SETTINGS","hacked by sampleExtension lol"'
+      }
+    ]
+
   }
 ];
 

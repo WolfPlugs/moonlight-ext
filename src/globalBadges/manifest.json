@@ -1,11 +1,11 @@
 {
-  "id": "sampleExtension",
+  "id": "globalBadges",
   "version": "1.0.0",
   "meta": {
-    "name": "Sample extension",
+    "name": "Global Badges",
     "tagline": "A short tagline that appears below the name",
     "description": "A longer description that can **use Markdown**",
-    "authors": ["You!"],
-    "source": "https://github.com/moonlight-mod/sample-extension"
+    "authors": ["Wolfie"],
+    "source": "https://github.com/WolfPlugs/globalBadges"
   }
 }
